@@ -33,9 +33,7 @@
 *.out
 *.app
 
-press
 lib
 .idea
-/cmake-build-debug
 .DS_Store
 
