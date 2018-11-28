@@ -103,7 +103,6 @@ TEST(Hough_TEST,hough_circle_demo_resized_test){
     const double work_time = (end - start) / double(CLOCKS_PER_SEC);
     std::cout<< "Execute Time :" << work_time<< std::endl;
     ASSERT_TRUE(work_time <= 2);
-
     int x = static_cast<int>(circles[0][0]), y = static_cast<int>(circles[0][1]), r = static_cast<int>(circles[0][2]);
     cv::Mat ROI = resized_img(cv::Rect(x - r, y - r, 2 * r, 2 * r));
     cv::imshow("ROI", ROI);

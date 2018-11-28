@@ -159,7 +159,7 @@ TEST(test_pydown,pyrdown){
     cv::pyrDown(pyrdown1, pyrdown2);
     //cv::imshow("PyrdownTest1", pyrdown1);
     cv::imshow("PyrdownTest2", pyrdown2);
-    //cv::imshow("ImagePyrdownBefore", img);
+    //cv::imshow("ImagePyrdownBefore", ellipse);
     if (cv::waitKey() == 27) {
         cv::destroyAllWindows();
     }

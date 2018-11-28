@@ -4,14 +4,14 @@
 #include <gmock/gmock.h>
 
 //int main() {
-//    cv::Mat img = cv::imread("/usr/local/opencv/images/Images/DIP3E_Original_Images_CH03/Fig0359(a)(headCT_Vandy).tif");
+//    cv::Mat ellipse = cv::imread("/usr/local/opencv/images/Images/DIP3E_Original_Images_CH03/Fig0359(a)(headCT_Vandy).tif");
 //    cv::namedWindow("Example1", cv::WINDOW_AUTOSIZE);
-//    if(!img.data){
+//    if(!ellipse.data){
 //        std::cout<<"Empty image"<<std::endl;
 //        return -1;
 //    }
 //    else{
-//        cv::imshow("Example1", img);
+//        cv::imshow("Example1", ellipse);
 //        cv::waitKey(0);
 //        cv::destroyWindow("Example1");
 //    }
